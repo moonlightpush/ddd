@@ -1,0 +1,16 @@
+ const initialJson = {
+    title: "openAPI",
+    description: "阿里云云API网关",
+    version: "last",
+    servers: [{ url: "https://openapi.aminer.cn" }],
+    tags: [{ name: "基础组件" }],
+    paths: {
+      "/aminer-search/search/person": {
+        post: {
+          tags: ["基础组件"],
+          operationId: "AMinerSearchPerson",
+          summary: "AMinerSearchPerson",
+        },
+      },
+    },
+  };
